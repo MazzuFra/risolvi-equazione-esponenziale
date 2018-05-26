@@ -36,7 +36,8 @@ public class MyGui implements ActionListener, ChangeListener {
     private JTextField txtfieldEqInserita;
     private CardLayout cl;
     private EqEsponenziale equazione;
-
+    private int numerelloBello;
+    
     public MyGui() {
         initComponents();
         finestradeck.setVisible(true);
